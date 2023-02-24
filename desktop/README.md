@@ -6,7 +6,7 @@ description: 'Siera has one simple goal: to make self-sovereign identity develop
 
 Siera is a development tool that assists you with your Aries based self-sovereign identity development.
 
-The CLI makes it easy to create schemas, definitions and credentials, so you can test your Aries application. You can use it both for individual actions or to run automations.
+The Desktop app makes it easy to create schemas, definitions and credentials, so you can test your Aries application. You can use it both for individual actions or to run automations.
 
 {% hint style="info" %}
 Currently, Siera is on its first release. If you have any feature requests, bugs or recommendations, we'd love to hear them! Open issues or contribute through PRs on our [GitHub](https://github.com/animo/siera) repo.
