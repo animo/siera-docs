@@ -4,7 +4,7 @@ description: >-
   easier.
 ---
 
-# Introduction to Siera
+# Introduction to Siera CLI
 
 Siera is a development tool that assists you with your Aries based self-sovereign identity development.
 
