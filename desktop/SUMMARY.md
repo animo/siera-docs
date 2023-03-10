@@ -5,8 +5,6 @@
 ## Guides
 
 * [Installation](guides/installation.md)
-* [Set up Siera](guides/configuration.md)
-* [Using Siera](guides/using-siera.md)
 
 ## Community
 

@@ -1,37 +1,22 @@
 ---
 description: >-
-  There are several ways to install Siera, depending on your system and
-  preferences. Currently  the methods are limited but we're working on adding
-  more.
+  Learn how to get started with the Siera Desktop app on MacOS and Linux. This
+  guide provides instructions for both operating systems to help you install and
+  run the app.
 ---
 
 # Installation
 
-### Installing through package managers
+## MacOS
 
-Currently, Siera supports Brew as a package manager.
+For MacOS, getting started with the Siera Desktop app is incredibly simple.&#x20;
 
-```
-brew tap animo/siera
-brew install siera
-```
+Everything required to run the app is included, so you can simply download your specific version of the app from the [Siera Desktop](https://siera.animo.id/desktop) website and start using it right away.
 
-For other systems than macOS we recommend installing with Cargo, or installing through the binaries.
 
-### Installing with Cargo
 
-To install with Cargo, Rust needs to be installed on your system first. This method is suitable for every system, but might have some undocumented dependency errors depending on your system setup.
+## Linux
 
-```
-cargo install --git https://github.com/animo/siera
-```
+Installing and using the Siera Desktop app on Linux requires some additional work. The app doesn't include the libindy installation, which is required to run the app. Thankfully, the [Aries js documentation](https://aries.js.org/guides/getting-started/installation/nodejs/linux) provides a detailed guide on how to install libindy on Linux.&#x20;
 
-This method of install will **not** update automatically and is therefore not recommended if another option is available to you. To update manually, reuse the installation command.
-
-### Installing through binaries
-
-The binaries can be downloaded from the[ website](https://siera.animo.id)`under`the `Get started` dropdown or from the [GitHub releases](https://github.com/animo/siera/releases). This method of install will **not** update automatically and is therefore not recommended if another option is available to you. We have binaries available for:
-
-* Windows (x86\_64)
-* macOS (x86\_64 / arm)
-* Linux (x86\_64)
+Once you have installed libindy and downloaded the Linux version of the Siera Desktop app, you are ready to start exploring its features.

@@ -6,7 +6,7 @@ description: >-
 
 # Contributing
 
-We welcome contributions that to make the CLI better. If you do not have a specific contribution in mind, we encourage you to look for issues labelled as [`good first issue`](https://github.com/animo/siera/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) or look at our [roadmap](roadmap.md).
+We welcome contributions that to make the Desktop app better. If you do not have a specific contribution in mind, we encourage you to look for issues labelled as [`good first issue`](https://github.com/animo/siera-desktop/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) or look at our [roadmap](roadmap.md).
 
 For significant changes, please open an issue first to discuss the proposed changes with the community to avoid re-work.
 
@@ -30,17 +30,11 @@ This gives your new idea the best chance to get accepted by the repository maint
 ### Getting set up
 
 ```
-git clone https://github.com/animo/siera.git
+git clone https://github.com/animo/siera-desktop.git
 ```
 
 Once you have the code locally, you should be able to test out the current source code by running:
 
 ```
-cargo run -q -- <cmd>
+yarn dev
 ```
-
-#### Tests
-
-We love tests, but recognize that there is a shortage of them at the moment. We encourage you to take a look at [Rust's guide](https://doc.rust-lang.org/book/ch11-01-writing-tests.html) on how to create an automated test. We are happy to provide support for writing tests on the PR.
-
-Currently a simple suite of tests can be executed by running `./tests/run.sh`.
